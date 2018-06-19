@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Application to Multiple Colleges in Siksha online</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+
+
+  <link rel="stylesheet" href="css/stylesheet.css">
+
+<style type="text/css">
+	
+.dropbtn {
+   /* background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;*/
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+  /*  background-color: #3e8e41;*/
+}
+
+
+</style>
+
+</head>
+<body>
+	<div class="container-fluid">
+		<header>
+			<div class="row">
+				<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+					<a class="navbar-brand" href="#">
+						<img src="images/logo.jpg" alt="Siksha Logo">
+					</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="collapsibleNavbar">
+						 <ul class="navbar-nav dropdown">
+							<li class="nav-item">
+								<a class="nav-link" href="#">HOME</a>
+							</li>
+							<li class="nav-item menu dropbtn">
+      							<a class="nav-link" href="#">
+       								 COURSES
+      						    </a>
+						    	<div class="dropdown-content">
+						    		<ul>
+						    			<li>
+						    		      <a class="dropdown-item" href='diploma-courses/Medical/index.php'>
+						    					<strong>Medical </strong>Colleges
+						    				</a>
+						    			</li>
+								        <li>
+								        	<a class="dropdown-item" href="diploma-courses/engineering/index.php">
+								        		<strong>Engineering </strong>Colleges
+								        	</a>
+								        </li>
+								        <li style="border:0;">
+								        	<a class="dropdown-item" href="diploma-courses/Agricultural/index.php">
+								        		<strong>Agricultural </strong>Colleges
+								        	</a>
+								        </li>
+						    		</ul> 
+
+
+
+						    	</div>
+						    </li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">ABOUT US</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">SERVICES</a>
+							</li>   
+							<li class="nav-item">
+								<a class="nav-link" href="#">FAQ'S</a>
+							</li> 
+							<li class="nav-item" style="border: 0;">
+								<a class="nav-link" href="#">CONTACT US</a>
+							</li>
+						</ul>
+					</div>  
+				</nav>
+			</div>
+		</header>
+		<div style="background-color: #fff; width: 100%;z-index: -1">
+			<a href="#">
+				<marquee width="100%" style="color:brown;font:0.875em arial;font-weight:bold; cursor:pointer" onMouseOut="this.start()" onMouseOver="this.stop()" BEHAVIOR="ALTERNATE" height="15" scrollamount="3">
+					WELCOME TO SIKSHA ADMISSIONS 2018-2019, FOR MORE INFORMATION CALL: 91771-777-56 
+				</marquee>
+			</a>
+		</div>
+		<div class="row banner clearfix">
+			<img src="images/banner.png" alt="banner">
+		</div>
+		<div class="row image-slider clearfix">
+			<div class="slider slider-nav">
+				<div>
+					<img src="images/slide.png" alt="slider image">
+				</div>
+				<div>
+					<img src="images/slide.png" alt="slider image">
+				</div>
+				<div>
+					<img src="images/slide.png" alt="slider image">
+				</div>
+				<div>
+					<img src="images/slide.png" alt="slider image">
+				</div>
+				<div>
+					<img src="images/slide.png" alt="slider image">
+				</div>
+			</div>
+		</div>
+		<div class="row content clearfix">
+			<div class="col-sm-12 col-md-6 about">
+				<h3>ABOUT US</h3>
+				<p>
+					Cum sociis natoque penatibus et  magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros Lorem ipsum dolor sit amet, consectetueradipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,	nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+					pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, 	fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.                         
+				</p>
+			</div>
+			<div class="col-sm-12 col-md-6 content-img">
+				<img src="images/content-img.png">
+			</div>
+		</div>
+		<footer>
+			<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="#">CONTACT US</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">SITEMAP</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">PRIVACY POLICY</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">TERMS & CONDITIONS</a>
+					</li>
+					<li class="nav-item" style="border:0;">
+						<a class="nav-link" href="#">FAQ</a>
+					</li>
+					<li class="nav-item copy" style="border:0;">
+						<a class="nav-link" href="#">&copy;2017 SIKSHA Online. All rights reserved.</a>
+					</li>
+				</ul>
+			</nav>
+		</footer>
+	</div>
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+ $('.slider-nav').slick({
+   slidesToShow: 3,
+   autoplay:true,
+  autoplaySpeed:1000,
+   slidesToScroll: 1,
+   asNavFor: '.slider-for',
+   dots: true,
+   focusOnSelect: true
+ });
+});
+ 
+</script>
+</body>
+</html>
